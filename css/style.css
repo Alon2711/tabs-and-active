@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .item {
+    flex-basis: 33.33%;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+   }
+   .item:hover {
+    background-color: grey;
+   }
+   .details {
+    display: none;
+    padding: 10px;
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+   }
